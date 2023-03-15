@@ -37,13 +37,13 @@ def talk():
         engine.runAndWait()
 
     elif "google" in cammand:
-            a = "who is google you fucking piece of shit"
+            a = "who is google"
             print(a)
             engine.say(a)
             engine.runAndWait()
 
     elif "siri" in cammand:
-            b = "who is siri you worthless shit"
+            b = "who is siri"
             engine.say(b)
             print(b)
             engine.runAndWait()
